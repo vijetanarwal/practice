@@ -17,7 +17,7 @@ pipeline {
         failure{
             echo 'if the stage run failed to execute'
         }
-        ustable{
+        unstable{
             echo 'current run actually fails'
         }
         changed{
